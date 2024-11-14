@@ -47,7 +47,7 @@ const handleSubmit = (event)=>{
                     value={data.phoneno}
                     onChange={handleChange}
                     placeholder="Phone Number"
-                />
+                /><br/>
                 <input
                     type="text"
                     name="subject"
@@ -62,7 +62,7 @@ const handleSubmit = (event)=>{
                     rows="5"
                     cols="50"
                     placeholder="Message"
-                />
+                /><br/>
                 <button type="submit">Submit</button>
             </form>
               
