@@ -6,7 +6,7 @@ function App() {
   return (
  <Router>
  <Routes>
-  <Route path='/' element={<LoginPage/>}></Route>
+  <Route path='/InvoiceSystem' element={<LoginPage/>}></Route>
   </Routes>
   </Router>
   );

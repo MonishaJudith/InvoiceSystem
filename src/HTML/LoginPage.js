@@ -33,7 +33,7 @@ const handleSubmit = (event)=>{
                     value={data.name}
                     onChange={handleChange}
                     placeholder="Name"
-                />
+                /><br/>
                 <input
                     type="email"
                     name="email"
